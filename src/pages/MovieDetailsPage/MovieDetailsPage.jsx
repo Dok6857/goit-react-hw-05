@@ -10,7 +10,7 @@ const MovieDetailsPage = () => {
   const { movieId } = useParams()
   const [movieInfo, setMovieInfo] = useState(null)
   const location = useLocation()
-  const backLinkref = useRef(location.state ?? "/movies")
+  const backLinkHref = useRef(location.state ?? "/movies")
   const [loading, setLoading] = useState(false)
 
   useEffect(() => {
@@ -33,7 +33,7 @@ const MovieDetailsPage = () => {
 
   return (
     <>
-      <Link to={backLinkref.current}>
+      <Link to={backLinkHref.current}>
         <IoArrowBackSharp className={css.svg} />
       </Link>
 
