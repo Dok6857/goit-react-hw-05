@@ -1,0 +1,51 @@
+.itemBox {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    border-bottom: 1px solid rgb(255, 60, 0);
+    gap: 20px;
+    padding-bottom: 15px;
+}
+
+.image {
+
+    width: 300px;
+}
+
+
+.title {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    color: black;
+
+}
+
+.text {
+    color: black;
+}
+
+.backBtn {
+    background-color: transparent;
+    border: none;
+
+}
+
+.svg {
+    width: 20px;
+    height: 20px;
+    fill: rgb(255, 60, 0);
+}
+
+.svg:hover {
+    fill: rgb(255, 17, 0);
+}
+
+.link {
+    color: black;
+}
+
+.link:hover {
+    color: rgb(255, 60, 0);
+}

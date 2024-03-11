@@ -1,0 +1,40 @@
+.container {
+    padding: 50px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    height: auto;
+    text-align: center;
+    padding: 10px;
+    transition: transform 250ms;
+}
+
+.item:hover {
+    transform: scale(1.1);
+}
+
+.link {
+    font-size: 20px;
+    color: black;
+}
+
+.link:hover {
+    color: rgb(255, 60, 0);
+}
+
+.img {
+    width: 150px;
+    margin-top: 10px;
+
+}
